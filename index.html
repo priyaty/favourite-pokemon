@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <title>Pokémon Slider</title>
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link href="css/main.min.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+    <section class="sections light-sec" id="js-slider-section">
+      <div class="section-detailed-wrapper">
+        <div class="bg-video-wrapper">
+          <video class="bg-video" autoplay loop muted>
+            <source src="video/pikachu.mp4#t=65,100" type="video/mp4">
+          </video>
+        </div>
+        <div class="slider-parent-wrapper" id="main-wrapper">
+                    <div class="slider-wrapper" id="js-window" data-index="1">
+                      <ul class="slider-list">
+                                  <li class="slider-list__item js-slider-item" data-char="pika_video">
+                                    <div class="card-wrapper">
+                                      <div class="poke-tagname">
+                                        <h4 class="description-heading poke-tagname__name">1. Pikachu</h4>
+                                      </div>
+                                      <div class="pokeball">
+                                        <div class="pokeball-btn"></div>
+                                      </div><span class="poke-type poke-type--electric"></span>
+                                      <div class="slider-item-wrapper">
+                                        <div class="character-name-wrapper">
+                                          <h2 class="card-heading card-heading--light">Pikachu</h2>
+                                        </div>
+                                        <div class="character-block character-block--pika">
+                                          <div class="character-name-wrapper">
+                                            <h2 class="card-heading card-heading--dark">Pikachu</h2>
+                                          </div>
+                                          <div class="card-image-wrapper"><img class="character-block__image" src="img/pokemon/pikachu.png" alt="Pikachu Image"></div>
+                                        </div>
+                                        <div class="info-block">
+                                          <p class="description info-block__descriprion">Looks cute but can be very shocking if angered. This pokemon has electricity-storing pouches on its cheeks. These appear to become electrically charged during the night while pikachu sleeps.  It keeps its tail raised to monitor its surroundings. If you yank its tail, it will try to bite you. It occasionally discharges electricity when it is dozy after waking up.</p>
+                                          <div class="info-details"><span class="character-data"><span class="sm-heading">Species:</span><span class="sm-detail"> Mouse Pokemon</span></span><span class="character-data"><span class="sm-heading">Type:</span><span class="sm-detail"> Electric</span></span><span class="character-data"><span class="sm-heading">Height:</span><span class="sm-detail"> 1'4</span></span><span class="character-data"><span class="sm-heading">Weight:</span><span class="sm-detail"> 13.2 lbs</span></span></div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </li>
+                                  <li class="slider-list__item js-slider-item" data-char="mew_video">
+                                    <div class="card-wrapper">
+                                      <div class="poke-tagname">
+                                        <h4 class="description-heading poke-tagname__name">2. Mewtwo</h4>
+                                      </div>
+                                      <div class="pokeball">
+                                        <div class="pokeball-btn"></div>
+                                      </div><span class="poke-type poke-type--psychic"></span>
+                                      <div class="slider-item-wrapper">
+                                        <div class="character-name-wrapper">
+                                          <h2 class="card-heading card-heading--light">Mewtwo</h2>
+                                        </div>
+                                        <div class="character-block character-block--mew">
+                                          <div class="character-name-wrapper">
+                                            <h2 class="card-heading card-heading--dark">Mewtwo</h2>
+                                          </div>
+                                          <div class="card-image-wrapper"><img class="character-block__image" src="img/pokemon/mewtwo.png" alt="Mewtwo Image"></div>
+                                        </div>
+                                        <div class="info-block">
+                                          <p class="description info-block__descriprion">A legendary and a mysterious pokemon. It was created by a scientist after years of horrific gene splicing and DNA engineering experiments. Because its battle abilities were raised to the ultimate level, it thinks only of defeating its foes. It usually remains motionless to conserve energy, so that it may unleash its full power in battle.</p>
+                                          <div class="info-details"><span class="character-data"><span class="sm-heading">Species:</span><span class="sm-detail"> Genetic Pokemon</span></span><span class="character-data"><span class="sm-heading">Type:</span><span class="sm-detail"> Psychic</span></span><span class="character-data"><span class="sm-heading">Height:</span><span class="sm-detail"> 6'7</span></span><span class="character-data"><span class="sm-heading">Weight:</span><span class="sm-detail"> 269 lbs</span></span></div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </li>
+                                  <li class="slider-list__item js-slider-item" data-char="lap_video">
+                                    <div class="card-wrapper">
+                                      <div class="poke-tagname">
+                                        <h4 class="description-heading poke-tagname__name">3. Lapras</h4>
+                                      </div>
+                                      <div class="pokeball">
+                                        <div class="pokeball-btn"></div>
+                                      </div><span class="poke-type poke-type--ice"></span>
+                                      <div class="slider-item-wrapper">
+                                        <div class="character-name-wrapper">
+                                          <h2 class="card-heading card-heading--light">Lapras</h2>
+                                        </div>
+                                        <div class="character-block character-block--lap">
+                                          <div class="character-name-wrapper">
+                                            <h2 class="card-heading card-heading--dark">Lapras</h2>
+                                          </div>
+                                          <div class="card-image-wrapper"><img class="character-block__image" src="img/pokemon/laprus.png" alt="Lapras Image"></div>
+                                        </div>
+                                        <div class="info-block">
+                                          <p class="description info-block__descriprion">A gentle soul that can read the minds of people. It can ferry people across the sea on its back. A POKéMON that has been overhunted almost to extinction. Its high intelligence enables it to understand human speech.</p>
+                                          <div class="info-details"><span class="character-data"><span class="sm-heading">Species:</span><span class="sm-detail"> Transport Pokémon</span></span><span class="character-data"><span class="sm-heading">Type:</span><span class="sm-detail"> Water/Ice</span></span><span class="character-data"><span class="sm-heading">Height:</span><span class="sm-detail"> 8′2″</span></span><span class="character-data"><span class="sm-heading">Weight:</span><span class="sm-detail"> 485 lbs</span></span></div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </li>
+                                  <li class="slider-list__item js-slider-item" data-char="lug_video">
+                                    <div class="card-wrapper">
+                                      <div class="poke-tagname">
+                                        <h4 class="description-heading poke-tagname__name">4. Lugia</h4>
+                                      </div>
+                                      <div class="pokeball">
+                                        <div class="pokeball-btn"></div>
+                                      </div><span class="poke-type poke-type--psychic"></span>
+                                      <div class="slider-item-wrapper">
+                                        <div class="character-name-wrapper">
+                                          <h2 class="card-heading card-heading--light">Lugia</h2>
+                                        </div>
+                                        <div class="character-block character-block--lug">
+                                          <div class="character-name-wrapper">
+                                            <h2 class="card-heading card-heading--dark">Lugia</h2>
+                                          </div>
+                                          <div class="card-image-wrapper"><img class="character-block__image" src="img/pokemon/lugia.png" alt="Lugia Image"></div>
+                                        </div>
+                                        <div class="info-block">
+                                          <p class="description info-block__descriprion">It is said to be the guardian of the seas. It is rumored to have been seen on the night of a storm. It’s wings pack devastating power - a light fluttering of its wings can blow apart regular houses. As a result, this pokemon chooses to live out of sight deep under the sea.</p>
+                                          <div class="info-details"><span class="character-data"><span class="sm-heading">Species:</span><span class="sm-detail"> Diving Pokemon</span></span><span class="character-data"><span class="sm-heading">Type:</span><span class="sm-detail"> Psychic/Flying</span></span><span class="character-data"><span class="sm-heading">Height:</span><span class="sm-detail"> 17′1″</span></span><span class="character-data"><span class="sm-heading">Weight:</span><span class="sm-detail"> 476.2 lbs</span></span></div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </li>
+                                  <li class="slider-list__item js-slider-item" data-char="char_video">
+                                    <div class="card-wrapper">
+                                      <div class="poke-tagname">
+                                        <h4 class="description-heading poke-tagname__name">5. Charizard</h4>
+                                      </div>
+                                      <div class="pokeball">
+                                        <div class="pokeball-btn"></div>
+                                      </div><span class="poke-type poke-type--fire"></span>
+                                      <div class="slider-item-wrapper">
+                                        <div class="character-name-wrapper">
+                                          <h2 class="card-heading card-heading--light">Charizard</h2>
+                                        </div>
+                                        <div class="character-block character-block--char">
+                                          <div class="character-name-wrapper">
+                                            <h2 class="card-heading card-heading--dark">Charizard</h2>
+                                          </div>
+                                          <div class="card-image-wrapper"><img class="character-block__image" src="img/pokemon/charizard.png" alt="Charizard Image"></div>
+                                        </div>
+                                        <div class="info-block">
+                                          <p class="description info-block__descriprion">A charizard flies about in search of strong opponents. It breathes intense flames that can melt any material. However, it will never torch a weaker foe. If charizard becomes furious, the flame at the tip of its tail flares up in a whitish-blue color.</p>
+                                          <div class="info-details"><span class="character-data"><span class="sm-heading">Species:</span><span class="sm-detail"> Flame Pokémon</span></span><span class="character-data"><span class="sm-heading">Type:</span><span class="sm-detail"> Fire/Flying</span></span><span class="character-data"><span class="sm-heading">Height:</span><span class="sm-detail"> 5′7″</span></span><span class="character-data"><span class="sm-heading">Weight:</span><span class="sm-detail"> 199.5 lbs</span></span></div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </li>
+                                  <li class="slider-list__item js-slider-item" data-char="tog_video">
+                                    <div class="card-wrapper">
+                                      <div class="poke-tagname">
+                                        <h4 class="description-heading poke-tagname__name">6. Togepi</h4>
+                                      </div>
+                                      <div class="pokeball">
+                                        <div class="pokeball-btn"></div>
+                                      </div><span class="poke-type poke-type--fairy"></span>
+                                      <div class="slider-item-wrapper">
+                                        <div class="character-name-wrapper">
+                                          <h2 class="card-heading card-heading--light">Togepi</h2>
+                                        </div>
+                                        <div class="character-block character-block--tog">
+                                          <div class="character-name-wrapper">
+                                            <h2 class="card-heading card-heading--dark">Togepi</h2>
+                                          </div>
+                                          <div class="card-image-wrapper"><img class="character-block__image" src="img/pokemon/togepi.png" alt="Togepi Image"></div>
+                                        </div>
+                                        <div class="info-block">
+                                          <p class="description info-block__descriprion">The shell seems to be filled with joy. It is said that it will share good luck when treated kindly. As its energy, togepi uses the positive emotions of compassion and pleasure exuded by people and Pokémon.</p>
+                                          <div class="info-details"><span class="character-data"><span class="sm-heading">Species:</span><span class="sm-detail"> Spike Ball Pokémon</span></span><span class="character-data"><span class="sm-heading">Type:</span><span class="sm-detail"> Fairy</span></span><span class="character-data"><span class="sm-heading">Height:</span><span class="sm-detail"> 1’0”</span></span><span class="character-data"><span class="sm-heading">Weight:</span><span class="sm-detail"> 3.3 lbs</span></span></div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </li>
+                                  <li class="slider-list__item js-slider-item" data-char="ho_oh_video">
+                                    <div class="card-wrapper">
+                                      <div class="poke-tagname">
+                                        <h4 class="description-heading poke-tagname__name">7. Ho-oh</h4>
+                                      </div>
+                                      <div class="pokeball">
+                                        <div class="pokeball-btn"></div>
+                                      </div><span class="poke-type poke-type--fire"></span>
+                                      <div class="slider-item-wrapper">
+                                        <div class="character-name-wrapper">
+                                          <h2 class="card-heading card-heading--light">Ho-oh</h2>
+                                        </div>
+                                        <div class="character-block character-block--ho_oh">
+                                          <div class="character-name-wrapper">
+                                            <h2 class="card-heading card-heading--dark">Ho-oh</h2>
+                                          </div>
+                                          <div class="card-image-wrapper"><img class="character-block__image" src="img/pokemon/ho-oh.png" alt="Ho-oh Image"></div>
+                                        </div>
+                                        <div class="info-block">
+                                          <p class="description info-block__descriprion">Legends claim this Pokémon flies the world's skies continuously on its magnificent seven-colored wings. A legend says that its body glows in seven colors. A rainbow is said to form behind it when it flies. 	It will reveal itself before a pure-hearted trainer by shining its bright rainbow-colored wings.</p>
+                                          <div class="info-details"><span class="character-data"><span class="sm-heading">Species:</span><span class="sm-detail"> Rainbow Pokémon</span></span><span class="character-data"><span class="sm-heading">Type:</span><span class="sm-detail"> Fire/Flying</span></span><span class="character-data"><span class="sm-heading">Height:</span><span class="sm-detail"> 12'6”</span></span><span class="character-data"><span class="sm-heading">Weight:</span><span class="sm-detail"> 438.7 lbs</span></span></div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </li>
+                                  <li class="slider-list__item js-slider-item" data-char="dragonite_video">
+                                    <div class="card-wrapper">
+                                      <div class="poke-tagname">
+                                        <h4 class="description-heading poke-tagname__name">8. Dragonite</h4>
+                                      </div>
+                                      <div class="pokeball">
+                                        <div class="pokeball-btn"></div>
+                                      </div><span class="poke-type poke-type--dragon"></span>
+                                      <div class="slider-item-wrapper">
+                                        <div class="character-name-wrapper">
+                                          <h2 class="card-heading card-heading--light">Dragonite</h2>
+                                        </div>
+                                        <div class="character-block character-block--dragonite">
+                                          <div class="character-name-wrapper">
+                                            <h2 class="card-heading card-heading--dark">Dragonite</h2>
+                                          </div>
+                                          <div class="card-image-wrapper"><img class="character-block__image" src="img/pokemon/dragonite.png" alt="Dragonite Image"></div>
+                                        </div>
+                                        <div class="info-block">
+                                          <p class="description info-block__descriprion">An extremely rarely seen marine POKéMON. Its intelligence is said to match that of humans. DRAGONITE is capable of circling the globe in just 16 hours. It is a kindhearted POKéMON that leads lost and foundering ships in a storm to the safety of land. It is said that this POKéMON lives somewhere in the sea and that it flies. However, it is only a rumor.</p>
+                                          <div class="info-details"><span class="character-data"><span class="sm-heading">Species:</span><span class="sm-detail"> Dragon Pokémon</span></span><span class="character-data"><span class="sm-heading">Type:</span><span class="sm-detail"> Dragon/Flying</span></span><span class="character-data"><span class="sm-heading">Height:</span><span class="sm-detail"> 7’3”</span></span><span class="character-data"><span class="sm-heading">Weight:</span><span class="sm-detail"> 463 lbs</span></span></div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </li>
+                                  <li class="slider-list__item js-slider-item" data-char="umb_video">
+                                    <div class="card-wrapper">
+                                      <div class="poke-tagname">
+                                        <h4 class="description-heading poke-tagname__name">9. Umbreon</h4>
+                                      </div>
+                                      <div class="pokeball">
+                                        <div class="pokeball-btn"></div>
+                                      </div><span class="poke-type poke-type--dark"></span>
+                                      <div class="slider-item-wrapper">
+                                        <div class="character-name-wrapper">
+                                          <h2 class="card-heading card-heading--light">Umbreon</h2>
+                                        </div>
+                                        <div class="character-block character-block--umb">
+                                          <div class="character-name-wrapper">
+                                            <h2 class="card-heading card-heading--dark">Umbreon</h2>
+                                          </div>
+                                          <div class="card-image-wrapper"><img class="character-block__image" src="img/pokemon/umbreon.png" alt="Umbreon Image"></div>
+                                        </div>
+                                        <div class="info-block">
+                                          <p class="description info-block__descriprion">Evolved from eevee when leveled up with a high friendship during the night,  or when leveled up with high friendship with a Moon Shard in the Bag. when agitated, this POKéMON protects itself by spraying poisonous sweat from its pores. When darkness falls, the rings on the body begin to glow, striking fear in the hearts of anyone nearby. It hides silently in darkness and waits for its foes to make a move.</p>
+                                          <div class="info-details"><span class="character-data"><span class="sm-heading">Species:</span><span class="sm-detail"> Moonlight Pokémon</span></span><span class="character-data"><span class="sm-heading">Type:</span><span class="sm-detail"> Dark</span></span><span class="character-data"><span class="sm-heading">Height:</span><span class="sm-detail"> 3’3”</span></span><span class="character-data"><span class="sm-heading">Weight:</span><span class="sm-detail"> 59.5 lbs</span></span></div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </li>
+                                  <li class="slider-list__item js-slider-item" data-char="chiko_video">
+                                    <div class="card-wrapper">
+                                      <div class="poke-tagname">
+                                        <h4 class="description-heading poke-tagname__name">10. Chikorita</h4>
+                                      </div>
+                                      <div class="pokeball">
+                                        <div class="pokeball-btn"></div>
+                                      </div><span class="poke-type poke-type--grass"></span>
+                                      <div class="slider-item-wrapper">
+                                        <div class="character-name-wrapper">
+                                          <h2 class="card-heading card-heading--light">Chikorita</h2>
+                                        </div>
+                                        <div class="character-block character-block--chiko">
+                                          <div class="character-name-wrapper">
+                                            <h2 class="card-heading card-heading--dark">Chikorita</h2>
+                                          </div>
+                                          <div class="card-image-wrapper"><img class="character-block__image" src="img/pokemon/chikorita.png" alt="Chikorita Image"></div>
+                                        </div>
+                                        <div class="info-block">
+                                          <p class="description info-block__descriprion">A sweet aroma gently wafts from the leaf on its head. It is docile and loves to soak up the sun's rays. In battle, chikorita waves its leaf around to keep the foe at bay. However, a sweet fragrance also wafts from the leaf, becalming the battling POKéMON and creating a cozy, friendly atmosphere all around.</p>
+                                          <div class="info-details"><span class="character-data"><span class="sm-heading">Species:</span><span class="sm-detail"> Leaf Pokémon</span></span><span class="character-data"><span class="sm-heading">Type:</span><span class="sm-detail"> Grass</span></span><span class="character-data"><span class="sm-heading">Height:</span><span class="sm-detail"> 2’11”</span></span><span class="character-data"><span class="sm-heading">Weight:</span><span class="sm-detail"> 14.1 lbs</span></span></div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </li>
+                                  <li class="slider-list__item js-slider-item" data-char="mime_video">
+                                    <div class="card-wrapper">
+                                      <div class="poke-tagname">
+                                        <h4 class="description-heading poke-tagname__name">11. Mr. Mime</h4>
+                                      </div>
+                                      <div class="pokeball">
+                                        <div class="pokeball-btn"></div>
+                                      </div><span class="poke-type poke-type--psychic"></span>
+                                      <div class="slider-item-wrapper">
+                                        <div class="character-name-wrapper">
+                                          <h2 class="card-heading card-heading--light">Mr. Mime</h2>
+                                        </div>
+                                        <div class="character-block character-block--mime">
+                                          <div class="character-name-wrapper">
+                                            <h2 class="card-heading card-heading--dark">Mr. Mime</h2>
+                                          </div>
+                                          <div class="card-image-wrapper"><img class="character-block__image" src="img/pokemon/mr-mime.png" alt="Mr. Mime Image"></div>
+                                        </div>
+                                        <div class="info-block">
+                                          <p class="description info-block__descriprion">If interrupted while it is miming, it will slap around the offender with its broad hands. Always practices its pantomime act. It makes enemies believe something exists that really doesn't. Its fingertips emit a peculiar force field that hardens air to create an actual wall. MR. MIME is a master of pantomime. Its gestures and motions convince watchers that something unseeable actually exists. Once it is believed, it will exist as if it were a real thing.</p>
+                                          <div class="info-details"><span class="character-data"><span class="sm-heading">Species:</span><span class="sm-detail"> Barrier Pokémon</span></span><span class="character-data"><span class="sm-heading">Type:</span><span class="sm-detail"> Psychic/Fairy</span></span><span class="character-data"><span class="sm-heading">Height:</span><span class="sm-detail"> 4’3”</span></span><span class="character-data"><span class="sm-heading">Weight:</span><span class="sm-detail"> 120.2 lbs</span></span></div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </li>
+                                  <li class="slider-list__item js-slider-item" data-char="rapi_video">
+                                    <div class="card-wrapper">
+                                      <div class="poke-tagname">
+                                        <h4 class="description-heading poke-tagname__name">12. Rapidash</h4>
+                                      </div>
+                                      <div class="pokeball">
+                                        <div class="pokeball-btn"></div>
+                                      </div><span class="poke-type poke-type--fire"></span>
+                                      <div class="slider-item-wrapper">
+                                        <div class="character-name-wrapper">
+                                          <h2 class="card-heading card-heading--light">Rapidash</h2>
+                                        </div>
+                                        <div class="character-block character-block--rapi">
+                                          <div class="character-name-wrapper">
+                                            <h2 class="card-heading card-heading--dark">Rapidash</h2>
+                                          </div>
+                                          <div class="card-image-wrapper"><img class="character-block__image" src="img/pokemon/rapidash.png" alt="Rapidash Image"></div>
+                                        </div>
+                                        <div class="info-block">
+                                          <p class="description info-block__descriprion">Very competitive, this POKéMON will chase anything that moves fast in the hopes of racing it. At full gallop, its four hooves barely touch the ground because it moves so incredibly fast. RAPIDASH usually can be seen casually cantering in the fields and plains. However, when this POKéMON turns serious, its fiery manes flare and blaze as it gallops its way up to 150 mph.</p>
+                                          <div class="info-details"><span class="character-data"><span class="sm-heading">Species:</span><span class="sm-detail"> Fire Horse Pokémon</span></span><span class="character-data"><span class="sm-heading">Type:</span><span class="sm-detail"> Fire</span></span><span class="character-data"><span class="sm-heading">Height:</span><span class="sm-detail"> 5’7”</span></span><span class="character-data"><span class="sm-heading">Weight:</span><span class="sm-detail"> 209.4 lbs</span></span></div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </li>
+                                  <li class="slider-list__item js-slider-item" data-char="gast_video">
+                                    <div class="card-wrapper">
+                                      <div class="poke-tagname">
+                                        <h4 class="description-heading poke-tagname__name">13. Gastly</h4>
+                                      </div>
+                                      <div class="pokeball">
+                                        <div class="pokeball-btn"></div>
+                                      </div><span class="poke-type poke-type--ghost"></span>
+                                      <div class="slider-item-wrapper">
+                                        <div class="character-name-wrapper">
+                                          <h2 class="card-heading card-heading--light">Gastly</h2>
+                                        </div>
+                                        <div class="character-block character-block--gast">
+                                          <div class="character-name-wrapper">
+                                            <h2 class="card-heading card-heading--dark">Gastly</h2>
+                                          </div>
+                                          <div class="card-image-wrapper"><img class="character-block__image" src="img/pokemon/gastly.png" alt="Gastly Image"></div>
+                                        </div>
+                                        <div class="info-block">
+                                          <p class="description info-block__descriprion">Almost invisible, this gaseous POKéMON cloaks the target and puts it to sleep without notice. Said to appear in decrepit, deserted buildings. It has no real shape as it appears to be made of a gas. With its gas-like body, it can sneak into any place it desires. However, it can be blown away by wind. It wraps its opponent in its gas-like body, slowly weakening its prey by poisoning it through the skin.</p>
+                                          <div class="info-details"><span class="character-data"><span class="sm-heading">Species:</span><span class="sm-detail"> Gas Pokémon</span></span><span class="character-data"><span class="sm-heading">Type:</span><span class="sm-detail"> Ghost/Poison</span></span><span class="character-data"><span class="sm-heading">Height:</span><span class="sm-detail"> 4′3″</span></span><span class="character-data"><span class="sm-heading">Weight:</span><span class="sm-detail"> 0.2 lbs</span></span></div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </li>
+                                  <li class="slider-list__item js-slider-item" data-char="cater_video">
+                                    <div class="card-wrapper">
+                                      <div class="poke-tagname">
+                                        <h4 class="description-heading poke-tagname__name">14. Caterpie</h4>
+                                      </div>
+                                      <div class="pokeball">
+                                        <div class="pokeball-btn"></div>
+                                      </div><span class="poke-type poke-type--bug"></span>
+                                      <div class="slider-item-wrapper">
+                                        <div class="character-name-wrapper">
+                                          <h2 class="card-heading card-heading--light">Caterpie</h2>
+                                        </div>
+                                        <div class="character-block character-block--cater">
+                                          <div class="character-name-wrapper">
+                                            <h2 class="card-heading card-heading--dark">Caterpie</h2>
+                                          </div>
+                                          <div class="card-image-wrapper"><img class="character-block__image" src="img/pokemon/caterpie.png" alt="Caterpie Image"></div>
+                                        </div>
+                                        <div class="info-block">
+                                          <p class="description info-block__descriprion">Its short feet are tipped with suction pads that enable it to tirelessly climb slopes and walls. If you touch the feeler on top of its head, it will release a horrible stink to protect itself. For protection, it releases a horrible stench from the antenna on its head to drive away enemies.</p>
+                                          <div class="info-details"><span class="character-data"><span class="sm-heading">Species:</span><span class="sm-detail"> Worm Pokémon</span></span><span class="character-data"><span class="sm-heading">Type:</span><span class="sm-detail"> Bug</span></span><span class="character-data"><span class="sm-heading">Height:</span><span class="sm-detail"> 1′0″</span></span><span class="character-data"><span class="sm-heading">Weight:</span><span class="sm-detail"> 6.4 lbs</span></span></div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </li>
+                      </ul>
+                    </div>
+          <div class="slider-nav"><span class="icon-left-arrow slider-nav__arrow" id="move-left"></span>
+            <div class="slider-nav__draggable-area" id="js-draggable-area"><span class="dragger" id="js-dragger"></span></div><span class="icon-right-arrow slider-nav__arrow" id="move-right"> </span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/script.min.js"></script>
+  </body>
+</html>
