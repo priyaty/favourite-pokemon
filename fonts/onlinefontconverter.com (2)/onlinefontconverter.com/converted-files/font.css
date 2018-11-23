@@ -1,0 +1,18 @@
+@font-face {
+  font-family: 'Bsica';
+  src: url('Bsica.woff') format('woff'),
+       url('Bsica.ttf') format('truetype'),
+       url('Bsica.svg#Bsica') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'bsica';
+  src: url('bsica.eot');
+  src: url('bsica.woff2') format('woff2'),
+       url('bsica.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
